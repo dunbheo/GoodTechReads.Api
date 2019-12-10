@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29519.181
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoodTechReads.Api.WebApi", "GoodTechReads.Api.WebApi\GoodTechReads.Api.WebApi.csproj", "{7646FB4A-C67E-4DD0-9B11-D67188CB7291}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoodTechReads.Api.WebApi", "GoodTechReads.Api.WebApi\GoodTechReads.Api.WebApi.csproj", "{7646FB4A-C67E-4DD0-9B11-D67188CB7291}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoodTechReads.Api.WebApi.Shared", "GoodTechReads.Api.WebApi.Shared\GoodTechReads.Api.WebApi.Shared.csproj", "{9D2F4E48-5E5D-4DEC-B42E-CB3055E75F2A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoodTechReads.Api.WebApi.Shared", "GoodTechReads.Api.WebApi.Shared\GoodTechReads.Api.WebApi.Shared.csproj", "{9D2F4E48-5E5D-4DEC-B42E-CB3055E75F2A}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "GoodTechReads.Api.Data", "GoodTechReads.Api.Data\GoodTechReads.Api.Data.sqlproj", "{A2799B7B-468E-4FBF-A59B-7DC83E8B00FF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,12 @@ Global
 		{9D2F4E48-5E5D-4DEC-B42E-CB3055E75F2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9D2F4E48-5E5D-4DEC-B42E-CB3055E75F2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9D2F4E48-5E5D-4DEC-B42E-CB3055E75F2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2799B7B-468E-4FBF-A59B-7DC83E8B00FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2799B7B-468E-4FBF-A59B-7DC83E8B00FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2799B7B-468E-4FBF-A59B-7DC83E8B00FF}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A2799B7B-468E-4FBF-A59B-7DC83E8B00FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2799B7B-468E-4FBF-A59B-7DC83E8B00FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2799B7B-468E-4FBF-A59B-7DC83E8B00FF}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
